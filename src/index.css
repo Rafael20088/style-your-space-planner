@@ -3,52 +3,52 @@
 @tailwind utilities;
 
 /* Sistema de design para aplicativo de móveis/marcenaria
-Paleta inspirada em madeiras nobles e acabamentos sofisticados
+Paleta inspirada em tons naturais: cinza, verde e verde oliva
 */
 
 @layer base {
   :root {
-    /* Cores principais - inspiradas em madeiras e acabamentos */
-    --background: 35 20% 98%;
-    --foreground: 25 25% 15%;
+    /* Cores principais - tons de cinza e verde */
+    --background: 120 10% 97%;
+    --foreground: 120 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 25% 15%;
+    --card-foreground: 120 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 25% 15%;
+    --popover-foreground: 120 15% 15%;
 
-    /* Madeira escura como primary */
-    --primary: 25 35% 20%;
-    --primary-foreground: 35 20% 98%;
+    /* Verde oliva escuro como primary */
+    --primary: 100 25% 25%;
+    --primary-foreground: 120 10% 97%;
 
-    /* Tom amadeirado claro como secondary */
-    --secondary: 35 30% 92%;
-    --secondary-foreground: 25 35% 20%;
+    /* Cinza esverdeado claro como secondary */
+    --secondary: 120 15% 90%;
+    --secondary-foreground: 100 25% 25%;
 
-    --muted: 35 15% 95%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 120 10% 94%;
+    --muted-foreground: 120 10% 45%;
 
-    /* Accent em tom dourado elegante */
-    --accent: 40 60% 85%;
-    --accent-foreground: 25 35% 20%;
+    /* Accent em verde suave */
+    --accent: 110 30% 75%;
+    --accent-foreground: 100 25% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 35 20% 98%;
+    --destructive-foreground: 120 10% 97%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 95%;
-    --ring: 25 35% 20%;
+    --border: 120 15% 85%;
+    --input: 120 10% 94%;
+    --ring: 100 25% 25%;
 
-    /* Gradientes elegantes */
-    --gradient-primary: linear-gradient(135deg, hsl(25 35% 20%), hsl(25 30% 25%));
-    --gradient-hero: linear-gradient(135deg, hsl(35 20% 98%), hsl(35 30% 95%));
-    --gradient-accent: linear-gradient(135deg, hsl(40 60% 85%), hsl(40 55% 80%));
+    /* Gradientes elegantes em tons de verde e cinza */
+    --gradient-primary: linear-gradient(135deg, hsl(100 25% 25%), hsl(100 20% 30%));
+    --gradient-hero: linear-gradient(135deg, hsl(120 10% 97%), hsl(120 15% 92%));
+    --gradient-accent: linear-gradient(135deg, hsl(110 30% 75%), hsl(110 25% 70%));
     
-    /* Sombras sofisticadas */
-    --shadow-elegant: 0 10px 30px -10px hsl(25 35% 20% / 0.15);
-    --shadow-card: 0 4px 20px -4px hsl(25 35% 20% / 0.1);
-    --shadow-glow: 0 0 40px hsl(40 60% 85% / 0.3);
+    /* Sombras sofisticadas com tons de verde */
+    --shadow-elegant: 0 10px 30px -10px hsl(100 25% 25% / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(100 25% 25% / 0.1);
+    --shadow-glow: 0 0 40px hsl(110 30% 75% / 0.3);
 
     /* Transições suaves */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
