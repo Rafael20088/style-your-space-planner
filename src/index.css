@@ -2,39 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Sistema de design para aplicativo de móveis/marcenaria
+Paleta inspirada em madeiras nobles e acabamentos sofisticados
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Cores principais - inspiradas em madeiras e acabamentos */
+    --background: 35 20% 98%;
+    --foreground: 25 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 25 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Madeira escura como primary */
+    --primary: 25 35% 20%;
+    --primary-foreground: 35 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Tom amadeirado claro como secondary */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 25 35% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 35 15% 95%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent em tom dourado elegante */
+    --accent: 40 60% 85%;
+    --accent-foreground: 25 35% 20%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 35 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 20% 88%;
+    --input: 35 20% 95%;
+    --ring: 25 35% 20%;
+
+    /* Gradientes elegantes */
+    --gradient-primary: linear-gradient(135deg, hsl(25 35% 20%), hsl(25 30% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(35 20% 98%), hsl(35 30% 95%));
+    --gradient-accent: linear-gradient(135deg, hsl(40 60% 85%), hsl(40 55% 80%));
+    
+    /* Sombras sofisticadas */
+    --shadow-elegant: 0 10px 30px -10px hsl(25 35% 20% / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(25 35% 20% / 0.1);
+    --shadow-glow: 0 0 40px hsl(40 60% 85% / 0.3);
+
+    /* Transições suaves */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s ease-out;
 
     --radius: 0.5rem;
 
