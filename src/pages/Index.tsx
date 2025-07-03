@@ -79,12 +79,16 @@ const Index = () => {
           <div className="flex items-center justify-between">
             {/* Logo e Título */}
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <Home className="w-6 h-6 text-primary-foreground" />
+              <div className="w-12 h-12 rounded-full overflow-hidden">
+                <img 
+                  src="/lovable-uploads/203da2cf-2295-4b07-a549-782d0d2ab3f8.png" 
+                  alt="Acácia Móveis Logo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-foreground">MóvelCraft</h1>
-                <p className="text-sm text-muted-foreground">Sua Casa, Seu Estilo</p>
+                <h1 className="text-xl font-bold text-foreground">Acácia Móveis</h1>
+                <p className="text-sm text-muted-foreground">Móveis Planejados</p>
               </div>
             </div>
 
@@ -245,9 +249,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-lg font-semibold text-foreground mb-4">MóvelCraft</h4>
+              <h4 className="text-lg font-semibold text-foreground mb-4">Acácia Móveis</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Especialistas em móveis sob medida com mais de 10 anos de experiência. 
+                Especialistas em móveis planejados com mais de 10 anos de experiência. 
                 Transformamos ambientes com qualidade e design exclusivo.
               </p>
             </div>
@@ -255,7 +259,7 @@ const Index = () => {
               <h4 className="text-lg font-semibold text-foreground mb-4">Contato</h4>
               <div className="space-y-2 text-sm text-muted-foreground">
                 <p>📱 (11) 99999-9999</p>
-                <p>📧 contato@movelcraft.com.br</p>
+                <p>📧 contato@acaciamoveis.com.br</p>
                 <p>📍 São Paulo, SP</p>
               </div>
             </div>
@@ -275,7 +279,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-border/30 mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 MóvelCraft. Todos os direitos reservados.
+            © 2024 Acácia Móveis. Todos os direitos reservados.
           </div>
         </div>
       </footer>
