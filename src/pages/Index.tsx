@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { 
+import { Link } from "react-router-dom";
+import {
   Carousel,
   CarouselContent,
   CarouselItem,
@@ -91,6 +93,22 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground">Móveis Planejados</p>
               </div>
             </div>
+
+            {/* Navegação */}
+            <nav className="hidden md:flex space-x-6">
+              <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                Início
+              </Link>
+              <Link to="/produtos" className="text-muted-foreground hover:text-foreground transition-colors">
+                Produtos
+              </Link>
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                Sobre
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                Contato
+              </a>
+            </nav>
 
             {/* Botões do Header */}
             <div className="flex items-center space-x-2">
